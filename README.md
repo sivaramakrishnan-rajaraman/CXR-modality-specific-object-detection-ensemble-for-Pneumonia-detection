@@ -32,7 +32,7 @@ vit_keras==0.1.0
 
 ### Modality-specific pretraining.py :
 
-The code shows how to train and evaluate Deep Learning models on a collection of Chest X-rays to learn CXR modlaity-specific features and improve model convergence. 
+The code shows how to train and evaluate DL models on a collection of Chest X-rays to learn CXR modality-specific features and improve model convergence. 
 
 
 ### object_detection.py:
