@@ -7,6 +7,25 @@ Computer-aided detection methods using conventional deep learning (DL) models fo
 
 # Requirements:
 
+matplotlib==3.3.4
+
+numpy==1.19.5
+
+opencv_python==4.5.1.48
+
+pandas==1.1.5
+
+scikit_learn==1.1.1
+
+scipy==1.5.4
+
+seaborn==0.11.1
+
+tensorflow==2.4.0
+
+tensorflow_addons==0.12.1
+
+vit_keras==0.1.0
 
 
 # Codes
