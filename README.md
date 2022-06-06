@@ -36,5 +36,10 @@ The code shows how to train and evaluate DL models on a collection of Chest X-ra
 
 
 ### object_detection.py:
+The RetinaNet training code is here: https://github.com/fizyr/keras-retinanet
+the argument "--weights" can be used to load the pre-trained modality-specific model. 
 
+the "losses.py" is the loss modification, it should replace the original file if a customized loss is used. 
+
+The RetinaNet test code is provided and after the testing, a post-process is needed to split the predictions in different files per image. Because the bbox_ensemble code and the map_Eval (mAP evaluation) code require the input data to be in specific format. 
 
